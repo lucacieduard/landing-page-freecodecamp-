@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #eee;
+	position: relative;
+	font-family: "Lato", sans-serif;
+}
+
+header {
+	width: 100%;
+	min-height: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #eee;
+}
+
+.logodiv {
+	width: 60%;
+}
+
+nav {
+	width: 35%;
+}
+
+.logo {
+	width: 300px;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: #000;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+main {
+    max-width: 1000px;
+    margin:0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+input {
+	height: 1.5rem;
+	padding: 12px 4px;
+    font-size: 1rem;
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.start-btn{
+    margin-top:1rem;
+    background-color: #f1c40f;
+    color:black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+    margin-bottom: 2rem;
+    transition: all 1s;
+}
+
+.start-btn:hover{
+    background-color: orange;
+}
+
+.specifications{
+    display: flex;
+    flex-direction: column;
+}
+
+.product{
+    display: flex;
+    align-content: center;
+    margin-top:3rem;
+    justify-content: space-evenly;
+}
+
+.product img{
+    width:70px;
+}
+
+.description{
+    text-align:left;
+    align-self: center;
+    width: 60%;
+}
+
+.spec-name{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.spec-description{
+    letter-spacing: 0.5px;
+}
+
+iframe{
+    margin: 4rem 0;
+}
+
+.cards{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.card{
+    border:1px solid black;
+    width:30%;
+}
+
+.card-header{
+    background-color: #ddd;
+    padding:1rem 0;
+}
+
+.price{
+margin:1rem 0 1.5rem 0;  
+  font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.specs li{
+    list-style-type: none;
+    margin-bottom:0.7rem;
+    font-size: 1.1rem;
+}
+
+.select{
+    margin-bottom: 1.5rem;
+    margin-top:1rem;
+    background-color: #f1c40f;
+    font-size: 1.2rem;
+    padding: .5rem .9rem;
+    border: none;
+    transition: all 1s;
+}
+
+.select:hover{
+    background-color: orange;
+}
+
+footer{
+    max-width: 1000px;
+    margin:2rem auto 0 auto;
+    background-color: #ddd;
+    text-align: right;
+    padding:1rem 1rem 1rem 0.5rem;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left:0.5rem;
+    font-size:1.1rem;
+}
+
+.copyright{
+    margin-top:1rem;
+}
+
+a{
+    scroll-behavior: smooth;
+}
